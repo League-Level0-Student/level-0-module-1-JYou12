@@ -34,13 +34,11 @@ public static void main(String[] args) {
 	}else if(superpower == 1) {
 		JOptionPane.showMessageDialog(null, name + "'s superpower speed");
 	}else if(superpower == 2) {
-		JOptionPane.showMessageDialog(null, name + "'s superpower vision");
+		JOptionPane.showMessageDialog(null, name + "'s superpower lazer vision");
 	}else if(superpower == 3) {
 		JOptionPane.showMessageDialog(null, name + "'s superpower super strength");
 	}else if(superpower == 4) {
 		JOptionPane.showMessageDialog(null, name + "'s superpower is phasing");
-	}else if(name == null) {
-		System.exit(0);
 	}
 	}
 }
